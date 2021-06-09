@@ -57,6 +57,7 @@ export const Main = () => {
       borderLeft="1px dashed"
       borderColor="border"
       py={4}
+      px={3}
     >
       <ContractExperience experience={contractExperience} />
       <WorkExperience experience={workExperience} />

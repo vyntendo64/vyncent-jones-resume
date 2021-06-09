@@ -1,22 +1,19 @@
 import * as React from 'react';
-import { Flex, Text, Heading, Stack } from '@chakra-ui/core';
+import { Box, Text, Heading, Stack } from '@chakra-ui/core';
 
 export interface ProfileSummaryProps {
   aboutMe: string[];
 }
 
 export const ProfileSummary = ({ aboutMe }: ProfileSummaryProps) => (
-  <Flex
-    flexDirection="column"
-    alignItems={['flex-start', 'flex-start', 'flex-start']}
-    width="100%"
-  >
-    <Heading fontSize="md" color="body" m={0} mb={1}>
+  <Box>
+    <Heading fontSize="md" color="body" mt={2} mb={2}>
       About me
     </Heading>
-    {aboutMe.map(detail => (
-      <Stack key={detail}>
+    <Stack spacing="5px">
+      {aboutMe.map(detail => (
         <Text
+          key={detail}
           width="100%"
           fontSize="xs"
           fontFamily="body"
@@ -26,7 +23,7 @@ export const ProfileSummary = ({ aboutMe }: ProfileSummaryProps) => (
         >
           {detail}
         </Text>
-      </Stack>
-    ))}
-  </Flex>
+      ))}
+    </Stack>
+  </Box>
 );

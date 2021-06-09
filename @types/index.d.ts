@@ -13,6 +13,7 @@ declare module 'resume' {
       projects: Experience[];
     };
   }
+
   export interface Project {
     name: string;
     url: string;

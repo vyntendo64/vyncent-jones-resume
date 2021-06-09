@@ -8,7 +8,7 @@ interface MainHeaderProps {
 }
 
 export const MainHeader = ({ icon, text }: MainHeaderProps) => (
-  <Flex width="100%" alignItems="flex-start" pb={2}>
+  <Flex width="100%" alignItems="flex-start" py={3}>
     <Box pr={2}>
       <Flex
         justifyContent="center"
