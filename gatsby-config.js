@@ -3,9 +3,9 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: `Wesley Chiang`,
-    description: `Wesley Chiang resume 2020`,
-    author: `Wesley Chiang`,
+    title: `Vyncent Jones`,
+    description: `Vyncent Jones resume 2020`,
+    author: `Vyncent Jones`,
   },
   plugins: [
     {
@@ -35,8 +35,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Wesley Chiang`,
-        short_name: `WC`,
+        name: `Vyncent Jones`,
+        short_name: `VJ`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
