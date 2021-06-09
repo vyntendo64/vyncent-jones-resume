@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "name": {
+      "firstName": "Vyncent",
+      "lastName": "Jones",
+      "nickName": "Vyncent"
+    },
+    "title": "Software Engineer",
+    "contact": {
+      "email": "vynware@gmail.com",
+      "github": "https://github.com/vyntendo64",
+      "linkedIn": "https://www.linkedin.com/in/vyncent-jones-09844a13b/",
+      "city": "Santa Monica, CA"
+    },
+    "aboutMe": [
+      "7 years of experience in making scalable, secure, database driven web applications and internal tooling both with a team and as an individual",
+      "Excellent leadership skills and keen at meeting strict deadlines",
+      "Business-minded and know how to prioritize projects and tasks to maximize benefits to the organization",
+      "Accountable; I execute quickly and with high quality; I identify bottlenecks, resolve them, and keep projects moving forward"
+    ],
+    "skills": {
+      "languages": [
+        "JavaScript (ES6)",
+        "Python",
+        "CSS/SASS",
+        "APEX",
+        "Visualforce"
+      ],
+      "database": [
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "technologies": [
+        "React",
+        "Typescript",
+        "GraphQL",
+        "Apollo",
+        "Serverless",
+        "AWS Lambdas",
+        "Node",
+        "Netlify",
+        "Jamstack",
+        "Gatsby",
+        "Webpack",
+        "Docker",
+        "Twilio",
+        "Salesforce",
+        "Git",
+        "Larvel",
+        "Coldfusion"
+      ],
+      "hobbies": [
+        "Gaming",
+        "Music",
+        "Cooking",
+        "NBA Basketball"
+      ]
+    }
+  }, 
+  "workExperience": [
+    {
+      "id": 0,
+      "title": "Lead Software Engineer",
+      "location": "Downtown Los Angeles, CA",
+      "company": "Tubescience",
+      "duration": {
+        "start": "06/2019",
+        "end": "Current"
+      },
+      "accomplishments": [
+        "Worked with leadership to define engineering and product roadmap. Ran sprint planning, backlog grooming, gathered requirements and wrote tickets. Grew engineering team by leading hiring and establishing engineering best practices.",
+        "Led the development of internal insights web application (built with React, Typescript, and GraphQL) that was pivotal in empowering Creative Strategists to find and replicate top performing ads, which increased client retention and spending; leveraged Hasura to generate a GraphQL endpoint from an existing Postgres infrastructure, exposing Facebook data for the web application to consume.",
+        "Introduced and trained engineers in React, GraphQL, Typescript, and Test Driven Development.",
+        "Established automated CI/CD pipeline using CircleCI with full end-to-end testing using Cypress.io; increased velocity from 1 deploy a week to ~8 - 10 a week."
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Lead Software Engineer",
+      "location": "West Hollywood, CA",
+      "company": "Wag!",
+      "duration": {
+        "start": "12/2018",
+        "end": "06/2019"
+      },
+      "accomplishments": [
+        "Led a team of 5 engineers; defined web engineering code and process standards; improved communication across NorCal and SoCal web engineering teams",
+        "Improved release velocity while reducing number of bugs released to production; averaging 10 releases per week, up from ~3 per week",
+        "Built the web team 'canary' test suite; ensures back end changes do not adversely affect endpoints the web team uses by automatically testing endpoints and alerting the team of breaking changes",
+        "Led the migration from legacy Django web application (wagwalking.com) to GatsbyJS; drastically improving SEO and page performance reducing page load time by more than 300%",
+        "Created Wag!'s shared React Component library using React, Styled Components, Styled System, and Lerna with over 80 components and counting"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Full Stack Engineer",
+      "location": "West Hollywood, CA",
+      "company": "Wag!",
+      "duration": {
+        "start": "07/2018",
+        "end": "12/2018"
+      },
+      "accomplishments": [
+        "Identified opportunities for web team to help iOS and Android teams to meet release expectations; built out MVP features in React to create webviews for Wag! mobile applications",
+        "Completely re-architected legacy React web app, drastically improving stability and customer experience (0 downtime since re-architecture); migrated back end off of Firebase",
+        "Built out entire suite of end-to-end tests with Cypress.io for legacy web app",
+        "Built out entire CI pipeline in GitLab to facilitate test automation; spins up a local instance of wagWebApp and wagAPI via Docker and runs entire suite of tests. Increased developer confidence and awareness by integrating pipeline results with Slack"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Full Stack Engineer",
+      "location": "Los Angeles, CA",
+      "company": "RealtyMogul.com",
+      "duration": {
+        "start": "01/2017",
+        "end": "07/2018"
+      },
+      "accomplishments": [
+        "Designed and built a suite of microservices that ingests and normalizes 3rd party data from multiple sources, and RESTful API's for user interfaces built in React to interact with",
+        "Templatize the creation of microservices using Cookiecutter in order to maximize consistency and efficiency",
+        "Managed the evaluation of various open source front-end technologies, ultimately implementing and training a team of 7 engineers on React, Redux, Redux-Saga, and Styled-Components",
+        "Worked closely with in-house designers to create and maintain RealtyMogul.com's core UI component library using Storybook; maximizing code reuse, consistency, and team efficiency",
+        "Established front-end coding standards and best practices such as Test Driven Development; implemented linters and tests that were automatically run on code commit, which prevented failing code from being introduced to the code base and ultimately, fewer bugs for QA",
+        "Overhauled front-end tooling / build system, decreasing front-end code compile time from 10s to ~0.2s and drastically improving developer experience"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Salesforce Technical Architect",
+      "location": "Los Angeles, CA",
+      "company": "RealtyMogul.com",
+      "duration": {
+        "start": "02/2015",
+        "end": "01/2017"
+      },
+      "accomplishments": [
+        "Gathered requirements across multiple cross-functional business orgs; completely re-implemented RealtyMogul.com's Salesforce instance with Custom Objects, and custom APEX code to better match their unique business requirements",
+        "Established Salesforce.com development and administration best practices to ensure long-term maintainability and ease of customization",
+        "Resolved system-wide synchronization failures between Drupal and Salesforce and improved site performance and reliability by migrating all data synchronizations from synchronous to asynchronous",
+        "Built custom GUI for Salesforce Administrators to better control, monitor, and manage the synchronization of data between Drupal and Salesforce",
+        "Built custom Round Robin lead distribution system which randomly and fairly assigned new leads across 4 sales teams and over 20 sales representatives; also implemented an administrative interface for Salesforce admins to add and modifying lead distribution rules without requiring dev resources or additional deployments"
+      ]
+    }
+  ],
+  "projects": [{
+    "id": 0,
+    "title": "Lead Software Engineer",
+    "location": "Downtown Los Angeles, CA",
+    "company": "Tubescience",
+    "duration": {
+      "start": "06/2019",
+      "end": "Current"
+    },
+    "accomplishments": [
+      "Worked with leadership to define engineering and product roadmap. Ran sprint planning, backlog grooming, gathered requirements and wrote tickets. Grew engineering team by leading hiring and establishing engineering best practices.",
+      "Led the development of internal insights web application (built with React, Typescript, and GraphQL) that was pivotal in empowering Creative Strategists to find and replicate top performing ads, which increased client retention and spending; leveraged Hasura to generate a GraphQL endpoint from an existing Postgres infrastructure, exposing Facebook data for the web application to consume.",
+      "Introduced and trained engineers in React, GraphQL, Typescript, and Test Driven Development.",
+      "Established automated CI/CD pipeline using CircleCI with full end-to-end testing using Cypress.io; increased velocity from 1 deploy a week to ~8 - 10 a week."
+    ]
+  }],
+  "contractExperience": [{
+    "id": 0,
+    "title": "Lead Software Engineer",
+    "location": "Downtown Los Angeles, CA",
+    "company": "Tubescience",
+    "duration": {
+      "start": "06/2019",
+      "end": "Current"
+    },
+    "accomplishments": [
+      "Worked with leadership to define engineering and product roadmap. Ran sprint planning, backlog grooming, gathered requirements and wrote tickets. Grew engineering team by leading hiring and establishing engineering best practices.",
+      "Led the development of internal insights web application (built with React, Typescript, and GraphQL) that was pivotal in empowering Creative Strategists to find and replicate top performing ads, which increased client retention and spending; leveraged Hasura to generate a GraphQL endpoint from an existing Postgres infrastructure, exposing Facebook data for the web application to consume.",
+      "Introduced and trained engineers in React, GraphQL, Typescript, and Test Driven Development.",
+      "Established automated CI/CD pipeline using CircleCI with full end-to-end testing using Cypress.io; increased velocity from 1 deploy a week to ~8 - 10 a week."
+    ]
+  }],
+  "educations": [{
+    "school": "University of Utah",
+    "duration": "2008 - 2011",
+    "location": "Salt Lake City, UT",
+    "degree": "BS, Economics"
+  }]
+}
