@@ -13,7 +13,7 @@
       "city": "Santa Monica, CA"
     },
     "aboutMe": [
-      "7 years of experience in making scalable, secure, database driven web applications and internal tooling both with a team and as an individual",
+      "7 years of experience in making scalable, secure, database driven componentized web applications and internal tooling both with a team and as an individual",
       "Excellent leadership skills and keen at meeting strict deadlines",
       "Business-minded and know how to prioritize projects and tasks to maximize benefits to the organization",
       "Accountable; I execute quickly and with high quality; I identify bottlenecks, resolve them, and keep projects moving forward"
@@ -51,7 +51,8 @@
         "Gaming",
         "Music",
         "Cooking",
-        "NBA Basketball"
+        "NBA basketball",
+        "Trading cards"
       ]
     }
   },
@@ -115,21 +116,21 @@
         "Led the integration of the API to Zendesk for customer service issue tracking and ticket creation.",
         "Migrated the web application from in house payment system to Stripe.",
         "Added Google autentication portal for all employees accessing production internal tooling.",
-        "Migrated legacy client web application from AngularJs to ReactJs with an animated signup flow as the crown jewel dramatically improving conversion and customer aquesition",
+        "Migrated legacy client web application from AngularJs to ReactJs with an animated signup flow as the crown jewel dramatically improving conversion and customer aquesition.",
         "Led the charge for the client applications to adopt typesafe practices using Flow."
       ]
     },
     {
       "id": 1,
       "title": "Applications Engineer",
-      "location": "Sandy, CA",
+      "location": "Sandy, UT",
       "company": "Canyons School District",
       "duration": {
         "start": "03/2017",
         "end": "09/2017"
       },
       "accomplishments": [
-        "Brought the entire District into the world of AngularJs and away from server side templates in a no longer maintained language, Coldfusion",
+        "Brought the entire District into the world of AngularJs and away from server side templates in a no longer maintained language, Coldfusion.",
         "Developed custom ORM and query builder layer on top of Coldfusion for faster development work.",
         "Launched major projects in record time that include a district wide mileage tracking software, inventory warehouse request/distribution software, special needs enrollment probram and a district wide volunteer signup and event management system."
       ]
@@ -144,7 +145,7 @@
     },
     "accomplishments": [
       "Developed in NodeJs, this stock bot watches up to 300 stock tickers at once and uses information streamed in via websockets to determine trade entry and exit points.",
-      "The bot uses Selenium to scrape the Trading View website to get volatile stocks and then integrates with Polygon.io to pull previous day's data. The data is then run through using various technical analysis and risk management strategies to determine trade entries",
+      "The bot uses Selenium to scrape the Trading View website to get volatile stocks and then integrates with Polygon.io to pull previous day's data. The data is then run through using various technical analysis and risk management strategies to determine trade entries.",
       "A fully robust set of backtesting scripts are used to determine strategy expected performance as well as create equity curves that can be displayed in chart format in the browser."
     ]
   },
