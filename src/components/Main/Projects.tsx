@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Text, Flex, Stack, Box } from '@chakra-ui/core';
-import { Experience } from 'resume';
+import { Project } from 'resume';
+import { IconLabel } from './IconLabel';
 import { MainHeader } from './MainHeader';
-import { WorkExperienceHeader } from './WorkExperienceHeader';
 
 export interface ProjectsProps {
-  experience: Experience[];
+  experience: Project[];
 }
 
 export const Projects = ({ experience }: ProjectsProps) => {
@@ -16,12 +16,23 @@ export const Projects = ({ experience }: ProjectsProps) => {
         {experience.map(article => {
           return (
             <Stack key={article.id}>
-              <WorkExperienceHeader
-                title={article.title}
-                location={article.location}
-                company={article.company}
-                duration={article.duration}
-              />
+              <Flex justifyContent="space-between" width="100%">
+                <Text
+                  fontFamily="heading"
+                  fontSize="md"
+                  color="body"
+                  lineHeight={1}
+                  fontWeight="bold"
+                  m={0}
+                >
+                  {article.title}
+                </Text>
+
+                <IconLabel
+                  label={`${article.duration.start} - ${article.duration.end}`}
+                />
+              </Flex>
+
               <Flex flexDirection="column">
                 {article.accomplishments.map(accomplishment => {
                   return (

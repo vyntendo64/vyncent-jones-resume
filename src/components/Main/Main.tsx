@@ -1,14 +1,15 @@
 import * as React from 'react';
-import { Flex } from '@chakra-ui/core';
+import { Box } from '@chakra-ui/core';
 import { useStaticQuery, graphql } from 'gatsby';
 import { ResumeData } from 'resume';
 import { WorkExperience } from './WorkExperience';
 import { ContractExperience } from './ContractExperience';
 import { Projects } from './Projects';
+import { FunStuff } from './FunStuff';
 
 export const Main = () => {
   const {
-    dataJson: { workExperience, contractExperience, projects },
+    dataJson: { workExperience, contractExperience, projects, funHighlights },
   } = useStaticQuery<ResumeData>(graphql`
     query {
       dataJson {
@@ -37,31 +38,23 @@ export const Main = () => {
         projects {
           id
           title
-          location
-          company
           duration {
             start
             end
           }
           accomplishments
         }
+        funHighlights
       }
     }
   `);
 
   return (
-    <Flex
-      width="100%"
-      height="100%"
-      flexDirection="column"
-      borderLeft="1px dashed"
-      borderColor="border"
-      py={4}
-      px={3}
-    >
-      <ContractExperience experience={contractExperience} />
+    <Box borderLeft="1px dashed" borderColor="border" py={4} px={3}>
       <WorkExperience experience={workExperience} />
+      <ContractExperience experience={contractExperience} />
       <Projects experience={projects} />
-    </Flex>
+      <FunStuff highlights={funHighlights} />
+    </Box>
   );
 };

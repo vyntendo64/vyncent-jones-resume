@@ -22,11 +22,11 @@ export const Blurb = () => {
           href="https://reactjs.org"
           target="_blank"
         >
-          React
+          ReactJs
         </Link>
         ,{' '}
         <Link href="https://www.gatsbyjs.org" target="_blank">
-          Gatsby
+          GatsbyJs
         </Link>{' '}
         and{' '}
         <Link href="https://chakra-ui.com/" target="_blank">

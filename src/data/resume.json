@@ -20,11 +20,9 @@
     ],
     "skills": {
       "languages": [
-        "JavaScript (ES6)",
-        "Python",
-        "CSS/SASS",
-        "APEX",
-        "Visualforce"
+        "Javascript",
+        "PHP",
+        "Python"
       ],
       "database": [
         "PostgreSQL",
@@ -69,13 +67,13 @@
     "accomplishments": [
       "Developed all internal tooling and website which is approved by the Australian government for handling the workflow needed to safely assess and remove asbestos with over 3,000 completed projects and counting.",
       "Build the client app with TDD for full e2e test coverage using CypressJs. Fully responsive and built using Typescript using Apollo + GQL served via Netlify all for no cost.",
-      "Serving a Serverless Lambda serving a GQL endpoint written in NodeJs using Prisma ORM to comminucate to an RDS instance, all for no cost and allowing for quick feature release.",
-      "Developed public facing website using GatsbyJS for blazing fast load times with a Lighthouse audit score of 95+ in all categories; complete with full SEO and Google Analytics.",
+      "A Serverless Lambda provides a GQL endpoint written in NodeJs using Prisma ORM to comminucate to an RDS instance, all for no cost and allowing for a quick developement cycle.",
+      "Developed a public facing website using GatsbyJS for blazing fast load times with a Lighthouse audit score of 95+ in all categories; complete with full SEO and Google Analytics.",
       "This software is responsible for Jesco receiving a government contract to oversee the demolition of the loose fill asbestos insulated houses for years in Canberra, ACT."
     ]
   },
   {
-    "id": 0,
+    "id": 2,
     "title": "Software Engineer",
     "location": "Downtown Los Angeles, CA",
     "company": "Tubescience",
@@ -87,6 +85,19 @@
       "Built internal web application (built with React, Typescript, and GraphQL) from the ground up that was pivotal in empowering Creative Strategists to find and replicate top performing ads.",
       "Developed internal web application for helping teams find and interate on high performing ads.",
       "All tooling used best practices in TDD for full e2e test coverage."
+    ]
+  }, {
+    "id": 1,
+    "title": "Software Engineer",
+    "location": "Canberra, AUS",
+    "company": "AAC Environmental",
+    "duration": {
+      "start": "06/2014",
+      "end": "07/2015"
+    },
+    "accomplishments": [
+      "Developed asbestos laboratory software used to score asbestos samples and track those that contained asbestos and those that did not.",
+      "Software sped up asbestos sample analysis workflow to the point of making AAC the #1 asbestos analysis lab in Canberra at the time and led to the company’s eventual buyout."
     ]
   }],
   "workExperience": [
@@ -126,18 +137,52 @@
   ],
   "projects": [{
     "id": 0,
-    "title": "Lead Software Engineer",
-    "location": "Downtown Los Angeles, CA",
-    "company": "Tubescience",
+    "title": "Stock trading bot",
     "duration": {
-      "start": "06/2019",
+      "start": "07/2020",
       "end": "Current"
     },
     "accomplishments": [
-      "Worked with leadership to define engineering and product roadmap. Ran sprint planning, backlog grooming, gathered requirements and wrote tickets. Grew engineering team by leading hiring and establishing engineering best practices.",
-      "Led the development of internal insights web application (built with React, Typescript, and GraphQL) that was pivotal in empowering Creative Strategists to find and replicate top performing ads, which increased client retention and spending; leveraged Hasura to generate a GraphQL endpoint from an existing Postgres infrastructure, exposing Facebook data for the web application to consume.",
-      "Introduced and trained engineers in React, GraphQL, Typescript, and Test Driven Development.",
-      "Established automated CI/CD pipeline using CircleCI with full end-to-end testing using Cypress.io; increased velocity from 1 deploy a week to ~8 - 10 a week."
+      "Developed in NodeJs, this stock bot watches up to 300 stock tickers at once and uses information streamed in via websockets to determine trade entry and exit points.",
+      "The bot uses Selenium to scrape the Trading View website to get volatile stocks and then integrates with Polygon.io to pull previous day's data. The data is then run through using various technical analysis and risk management strategies to determine trade entries",
+      "A fully robust set of backtesting scripts are used to determine strategy expected performance as well as create equity curves that can be displayed in chart format in the browser."
+    ]
+  },
+  {
+    "id": 1,
+    "title": "WoW Classic Dungeon Signup Bot",
+    "duration": {
+      "start": "07/2020",
+      "end": "Current"
+    },
+    "accomplishments": [
+      "Developed in NodeJs, this bot was invited into over 1000 discord servers and earned me an exclusive 'Disord Developer' title.",
+      "The Bot made it easy for players of World of Warcraft Classic to easily manage groups for a scheduled and time.",
+      "Users create events for events as well as create characters they can use to sign up for in game events.",
+      "At the end of it's life, the bot had over 100,000 signups and 12,000 characters created by unique users."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Zoodit",
+    "duration": {
+      "start": "07/2020",
+      "end": "Current"
+    },
+    "accomplishments": [
+      "Developed in React Native, this map based Reddit style application was approved and made available on the Apple App Store.",
+      "The application used the users' viewport to query for posts in those bounds sorted by upvotes."
+    ]
+  }, {
+    "id": 3,
+    "title": "Drivyn",
+    "duration": {
+      "start": "10/2016",
+      "end": "Current"
+    },
+    "accomplishments": [
+      "High school driver’s education management software used to track student progress toward obtaining their license and used to help over 5,000+ students obtain their driver's license.",
+      "Students sign up for available drives and instructors in the car mark their attendance and the hours are automatically calculated."
     ]
   }],
   "educations": [{
@@ -145,5 +190,9 @@
     "duration": "2008 - 2011",
     "location": "Salt Lake City, UT",
     "degree": "BS, Economics"
-  }]
+  }],
+  "funHighlights": [
+    "5 year Division 1 NCAA Scholarship athlete for the University of Utah football program and member of the team's Leadership Council.",
+    "Successful WoW guild leader in charge of gathering and leading 40 man groups through challenging encounters bi-weekly for up to 3 hours at a time."
+  ]
 }

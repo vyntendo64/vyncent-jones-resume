@@ -2,6 +2,7 @@ import * as React from 'react';
 import { ThemeProvider, Flex, BoxProps } from '@chakra-ui/core';
 import { theme } from '../theme';
 import { Blurb } from './Blurb';
+import background from '../images/wallpaper.png';
 
 export const Layout = ({ children }: BoxProps) => (
   <ThemeProvider theme={theme}>
@@ -13,13 +14,13 @@ export const Layout = ({ children }: BoxProps) => (
       justifyContent="center"
       alignItems="center"
       flexDirection="column"
-      bg="beige"
-      backgroundImage="url(https://images.unsplash.com/photo-1534030645-3ecc6e3c929d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80)"
+      bg="#222"
+      backgroundPosition="center"
+      backgroundImage="url(https://i.imgur.com/YmN0AlT.png)"
       backgroundSize="cover"
-      backgroundRepeat="repeat"
     />
     <Flex
-      bg="beige"
+      bg="#222"
       width="100%"
       justifyContent="center"
       alignItems="center"

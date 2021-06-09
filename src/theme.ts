@@ -6,9 +6,9 @@ export const theme = {
     ...coreTheme.colors,
     beige: '#F2F0EA',
     border: '#C6BFB9',
-    heading: '#313440',
-    body: '#313440',
-    accent: '#76997C',
+    heading: '#0F1112',
+    body: '#0F1112',
+    accent: '#277FB2',
     footer: '#282624',
   },
   fonts: {

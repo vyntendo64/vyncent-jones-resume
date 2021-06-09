@@ -10,14 +10,16 @@ declare module 'resume' {
       profile: Profile;
       workExperience: Experience[];
       contractExperience: Experience[];
-      projects: Experience[];
+      projects: Project[];
+      funHighlights: string[];
     };
   }
 
   export interface Project {
-    name: string;
-    url: string;
-    notes: string;
+    id: number;
+    title: string;
+    duration: ExperienceDuration;
+    accomplishments: string[];
   }
 
   export interface Education {
