@@ -31,6 +31,7 @@ export const IconLabel = ({
         mb={orientation === 'horizontal' ? 0 : 1}
       />
     )}
+
     <Text m={0} fontFamily="body" fontSize="xs" color="body">
       {label}
     </Text>

@@ -10,7 +10,7 @@ export const ProfileSummary = ({ aboutMe }: ProfileSummaryProps) => (
     <Heading fontSize="md" color="body" mt={2} mb={2}>
       About me
     </Heading>
-    <Stack spacing="5px">
+    <Stack spacing="10px">
       {aboutMe.map(detail => (
         <Text
           key={detail}

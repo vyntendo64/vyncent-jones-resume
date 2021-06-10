@@ -21,6 +21,7 @@ export const WorkExperience = ({ experience }: WorkExperienceProps) => {
                 location={article.location}
                 company={article.company}
                 duration={article.duration}
+                companyUrl={article.url}
               />
               <Box>
                 {article.accomplishments.map(accomplishment => {

@@ -11,8 +11,13 @@ declare module 'resume' {
       workExperience: Experience[];
       contractExperience: Experience[];
       projects: Project[];
-      funHighlights: string[];
+      funHighlights: Highlight[];
     };
+  }
+
+  export interface Highlight {
+    text: string;
+    url: string;
   }
 
   export interface Project {
@@ -20,6 +25,7 @@ declare module 'resume' {
     title: string;
     duration: ExperienceDuration;
     accomplishments: string[];
+    url?: string;
   }
 
   export interface Education {
@@ -67,7 +73,7 @@ declare module 'resume' {
     title: string;
     location: string;
     company: string;
-    companyUrl?: string;
+    url?: string;
     duration: ExperienceDuration;
     accomplishments: string[];
   }

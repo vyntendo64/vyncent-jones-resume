@@ -21,7 +21,7 @@ export const Education = () => {
 
   return (
     <Box>
-      <Heading fontSize="md" color="heading">
+      <Heading fontSize="md" color="heading" mb={2}>
         Education
       </Heading>
 
@@ -29,15 +29,7 @@ export const Education = () => {
         return (
           <Stack key={education.school}>
             <Box>
-              <Heading
-                fontSize="xs"
-                color="heading"
-                textTransform="capitalize"
-                lineHeight={1}
-              >
-                School
-              </Heading>
-              <Text color="body" fontSize="sm" lineHeight={1}>
+              <Text color="body" fontSize="md" lineHeight={1}>
                 {education.school}
               </Text>
             </Box>

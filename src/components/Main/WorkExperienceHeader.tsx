@@ -1,11 +1,12 @@
 import * as React from 'react';
-import { Flex, Text } from '@chakra-ui/core';
+import { Flex, Link, Text } from '@chakra-ui/core';
 import { IconLabel } from './IconLabel';
 
 interface WorkExperienceHeaderProps {
   title: string;
   location: string;
   company: string;
+  companyUrl?: string;
   duration: {
     start: string;
     end: string;
@@ -16,6 +17,7 @@ export const WorkExperienceHeader = ({
   title,
   location,
   company,
+  companyUrl,
   duration,
 }: WorkExperienceHeaderProps) => (
   <Flex flexDirection="column" pb={2}>
@@ -49,7 +51,17 @@ export const WorkExperienceHeader = ({
       alignItems={['flex-start', 'flex-start', 'center']}
       flexDirection={['column', 'column', 'row']}
     >
-      <IconLabel label={`${company}, ${location}`} />
+      <Text m={0} fontFamily="body" fontSize="xs" color="body">
+        {!companyUrl && `${company}, ${location}`}
+        {companyUrl && (
+          <>
+            <Link target="_blank" color="accent" href={companyUrl}>
+              {company}
+            </Link>
+            <span>{`, ${location}`}</span>
+          </>
+        )}
+      </Text>
     </Flex>
   </Flex>
 );

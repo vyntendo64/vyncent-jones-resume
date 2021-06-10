@@ -17,7 +17,7 @@ export const ProfileContact = ({ contact }: ProfileContactProps) => (
         <Flex
           key={entry[0]}
           width={['100%']}
-          pb={2}
+          pb={3}
           justifyContent={['flex-start']}
           alignItems={['center', 'flex-start']}
         >

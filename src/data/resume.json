@@ -9,44 +9,43 @@
     "contact": {
       "email": "vynware@gmail.com",
       "github": "https://github.com/vyntendo64",
-      "linkedIn": "https://www.linkedin.com/in/vyncent-jones-09844a13b/",
+      "linkedIn": "https://bit.ly/3vctPQk",
       "city": "Santa Monica, CA"
     },
     "aboutMe": [
-      "7 years of experience in making scalable, secure, database driven componentized web applications and internal tooling both with a team and as an individual",
-      "Excellent leadership skills and keen at meeting strict deadlines",
-      "Business-minded and know how to prioritize projects and tasks to maximize benefits to the organization",
-      "Accountable; I execute quickly and with high quality; I identify bottlenecks, resolve them, and keep projects moving forward"
+      "7 years of experience in making scalable, secure, database-driven componentized web applications and internal tooling both with a team and as an individual.",
+      "Excellent leadership skills and keen at meeting strict deadlines.",
+      "Quick learner who isn't afraid to get their hands dirty on legacy projects and will will put in the extra work to meet the highest quality standards."
     ],
     "skills": {
       "languages": [
-        "Javascript",
+        "Typescript",
         "PHP",
         "Python"
       ],
       "database": [
-        "PostgreSQL",
-        "MySQL"
+        "MySQL",
+        "PostgreSQL"
       ],
       "technologies": [
         "React",
-        "Typescript",
+        "Node",
+        "React Native",
         "GraphQL",
         "Apollo",
         "Prisma",
-        "Sequelize",
+        "Larvel",
         "Serverless",
-        "AWS Lambdas",
-        "Node",
-        "Netlify",
+        "AWS Lambda",
         "Jamstack",
         "Gatsby",
+        "Sequelize",
+        "Netlify",
         "Webpack",
         "Docker",
         "Twilio",
-        "Salesforce",
         "Git",
-        "Larvel",
+        "Mailchimp",
         "Coldfusion"
       ],
       "hobbies": [
@@ -60,34 +59,36 @@
   },
   "contractExperience": [{
     "id": 0,
-    "title": "Software Architect",
+    "title": "Software Engineer",
     "location": "Canberra, AUS",
+    "url": "https://www.jescoasbestos.com.au/",
     "company": "Jesco Asbestos",
     "duration": {
       "start": "03/2015",
       "end": "Current"
     },
     "accomplishments": [
-      "Developed all internal tooling and website which is approved by the Australian government for handling the workflow needed to safely assess and remove asbestos with over 3,000 completed projects and counting.",
-      "Build the client app with TDD for full e2e test coverage using CypressJs. Fully responsive and built using Typescript using Apollo + GQL served via Netlify all for no cost.",
-      "A Serverless Lambda provides a GQL endpoint written in NodeJs using Prisma ORM to comminucate to an RDS instance, all for no cost and allowing for a quick developement cycle.",
-      "Developed a public facing website using GatsbyJS for blazing fast load times with a Lighthouse audit score of 95+ in all categories; complete with full SEO and Google Analytics.",
-      "This software is responsible for Jesco receiving a government contract to oversee the demolition of the loose fill asbestos insulated houses for years in Canberra, ACT."
+      "Developed all internal tooling which is approved by the Australian government for handling the workflow needed to safely assess and remove asbestos with over 3,000 completed projects and counting.",
+      "Developed internal tooling TDD for full e2e test coverage using CypressJs so important onsite workflows go uninterrupted. Latest browser and device support and built using Typescript using Apollo with GQL for fast development all hosted via Netlify for no cost.",
+      "Developed Typescript GQL endpoint which Prisma ORM for CRUD operations with data stored in a secure RDS instance, served using a Serverless Lambda all for no cost and allowing for a quick development cycle.",
+      "Developed a public-facing website using GatsbyJS for blazing fast load times with a Lighthouse audit score of 95+ in all categories; complete with full SEO and Google Analytics.",
+      "Helped Jesco receive a government contract to oversee the demolition of the loose-fill asbestos-insulated houses for years in Canberra, ACT with this software."
     ]
   },
   {
     "id": 2,
     "title": "Software Engineer",
     "location": "Downtown Los Angeles, CA",
+    "url": "https://tubescience.com/",
     "company": "Tubescience",
     "duration": {
       "start": "10/2019",
       "end": "07/2020"
     },
     "accomplishments": [
-      "Built internal web application (built with React, Typescript, and GraphQL) from the ground up that was pivotal in empowering Creative Strategists to find and replicate top performing ads.",
-      "Developed internal web application for helping teams find and interate on high performing ads.",
-      "All tooling used best practices in TDD for full e2e test coverage."
+      "Built internal web application (built with React, Typescript, and GraphQL) from the ground up that was pivotal in empowering Creative Strategists to find and replicate top-performing ads.",
+      "Added e2e testing suites with full coverage to all core applications run during CI/CD pipelines effectively eliminating production outages and speeding up development",
+      "Developed internal web application for helping teams find and interate on high performing ads."
     ]
   }, {
     "id": 1,
@@ -100,7 +101,7 @@
     },
     "accomplishments": [
       "Developed asbestos laboratory software used to score asbestos samples and track those that contained asbestos and those that did not.",
-      "Software sped up asbestos sample analysis workflow to the point of making AAC the #1 asbestos analysis lab in Canberra at the time and led to the company’s eventual buyout."
+      "Sped up asbestos sample analysis workflow to the point of making AAC the #1 asbestos analysis lab in Canberra at the time and led to the company’s eventual buyout."
     ]
   }],
   "workExperience": [
@@ -108,6 +109,7 @@
       "id": 0,
       "title": "Software Engineer",
       "location": "West Hollywood, CA",
+      "url": "https://wagwalking.com/app",
       "company": "Wag!",
       "duration": {
         "start": "01/2018",
@@ -115,11 +117,13 @@
       },
       "accomplishments": [
         "Developed numerous features and integrations with 3rd party companies to expand the companies reach and capabilities.",
-        "Led the integration of the API to Zendesk for customer service issue tracking and ticket creation.",
-        "Migrated the web application from in house payment system to Stripe.",
-        "Added Google autentication portal for all employees accessing production internal tooling.",
+        "Led the company-wide rollover to Zendesk for customer service issue tracking and ticket creation with a tested, rich feature set of back-end services and custom integrations.",
+        "Led and developed theweb application's migration from in house payment system to Stripe.",
+        "Developed the Google autentication portal for all employees accessing production internal tooling.",
         "Migrated legacy client web application from AngularJs to ReactJs with an animated signup flow as the crown jewel dramatically improving conversion and customer aquesition.",
-        "Led the charge for the client applications to adopt typesafe practices using Flow."
+        "Led the charge for the client applications to adopt typesafe practices using Flow to avoid production downtime with .",
+        "Created e2e testing suite with full coverage run during CI/CD pipeline effectively eliminating production outages and speeding up development.",
+        "Developed numerous features for both website and web application that needed to handle millions of hits per month."
       ]
     },
     {
@@ -127,14 +131,15 @@
       "title": "Applications Engineer",
       "location": "Sandy, UT",
       "company": "Canyons School District",
+      "url": "https://www.canyonsdistrict.org/",
       "duration": {
         "start": "03/2017",
         "end": "09/2017"
       },
       "accomplishments": [
-        "Brought the entire District into the world of AngularJs and away from server side templates in a no longer maintained language, Coldfusion.",
-        "Developed custom ORM and query builder layer on top of Coldfusion for faster development work.",
-        "Launched major projects in record time that include a district wide mileage tracking software, inventory warehouse request/distribution software, special needs enrollment probram and a district wide volunteer signup and event management system."
+        "Led the charge to bring the entire District into the world of modular components and away from server-side templates in an no longer maintained language.",
+        "Developed custom ORM and query builder layer on top of Coldfusion for faster development cycles.",
+        "Launched major projects in record time that include a district-wide mileage tracking software, inventory warehouse request/distribution software, special needs enrollment program and a district-wide volunteer signup and event management system."
       ]
     }
   ],
@@ -146,46 +151,47 @@
       "end": "Current"
     },
     "accomplishments": [
-      "Developed in NodeJs, this stock bot watches up to 300 stock tickers at once and uses information streamed in via websockets to determine trade entry and exit points.",
-      "The bot uses Selenium to scrape the Trading View website to get volatile stocks and then integrates with Polygon.io to pull previous day's data. The data is then run through using various technical analysis and risk management strategies to determine trade entries.",
-      "A fully robust set of backtesting scripts are used to determine strategy expected performance as well as create equity curves that can be displayed in chart format in the browser."
+      "Developed a NodeJS stock bot that watches up to 300 stock tickers at once and uses information streamed in via websockets to determine trade entry and exit points.",
+      "Build a Selenium tool to scrape various websites to get volatile stocks and then integrates with Polygon.io to aggregate data. The data is then run through using various technical analysis and risk management strategies to determine trade entries in real-time.",
+      "Engineered a fully robust set of backtesting scripts are used to determine strategy expected performance as well as create equity curves that can be displayed in chart format in the browser."
     ]
   },
   {
     "id": 1,
-    "title": "WoW Classic Dungeon Signup bot",
-    "duration": {
-      "start": "07/2020",
-      "end": "Current"
-    },
-    "accomplishments": [
-      "Developed in NodeJs, this bot was invited into over 1000 discord servers and earned me an exclusive 'Disord Developer' title.",
-      "The Bot made it easy for players of World of Warcraft Classic to easily manage groups for a scheduled and time.",
-      "Users create events for events as well as create characters they can use to sign up for in game events.",
-      "At the end of it's life, the bot had over 100,000 signups and 12,000 characters created by unique users."
-    ]
-  },
-  {
-    "id": 2,
     "title": "Zoodit App",
+    "url": "https://appadvice.com/app/zoodit/1326547740",
     "duration": {
-      "start": "07/2020",
-      "end": "Current"
+      "start": "10/2017",
+      "end": "11/2018"
     },
     "accomplishments": [
-      "Developed in React Native, this map based Reddit style application was approved and made available on the Apple App Store.",
-      "The application used the users' viewport to query for posts in those bounds sorted by upvotes."
+      "Developed a map based Reddit style application in React Native that was approved and made available on the Apple App Store.",
+      "Engineered unique way using users' viewport to query for posts in those bounds sorted by upvotes as they scroll."
     ]
   }, {
-    "id": 3,
+    "id": 2,
     "title": "Drivyn",
+    "url": "https://drivyn.net/home",
     "duration": {
       "start": "10/2016",
       "end": "Current"
     },
     "accomplishments": [
-      "High school driver’s education management software used to track student progress toward obtaining their license and used to help over 5,000+ students obtain their driver's license.",
-      "Students sign up for available drives and instructors in the car mark their attendance and the hours are automatically calculated."
+      "Developed High school driver’s education management software used to track student progress toward obtaining their license and used to help over 5,000+ students obtain their driver's license.",
+      "Helped students sign up for available drives and instructors in the car mark their attendance and the hours are automatically calculated."
+    ]
+  },   {
+    "id": 3,
+    "title": "WoW Classic Dungeon Signup bot",
+    "url": "https://dblstatistics.com/bot/672884081616486445",
+    "duration": {
+      "start": "03/2020",
+      "end": "03/2021"
+    },
+    "accomplishments": [
+      "Developed a NodeJS Discord bot was invited into over 1000 servers and earned the \"Verified Bot\" badge.",
+      "Developed an easier way for players of World of Warcraft Classic to easily manage groups for a scheduled and time.",
+      "Managed a Discord server that communicated features to the over 12,000 users and saw over 100,000 signups at the end of it's life."
     ]
   }],
   "educations": [{
@@ -194,8 +200,12 @@
     "location": "Salt Lake City, UT",
     "degree": "BS, Economics"
   }],
-  "funHighlights": [
-    "5 year Division 1 NCAA Scholarship athlete for the University of Utah football program and member of the team's Leadership Council.",
-    "Successful WoW guild leader in charge of gathering and leading 40 man groups through challenging encounters bi-weekly for up to 3 hours at a time."
+  "funHighlights": [{
+      "text": "5 year Division 1 NCAA Scholarship athlete for the University of Utah football program and member of the team's Leadership Council.",
+      "url": "https://archive.sltrib.com/article.php?id=57185438&itype=CMSID"
+    },
+    {
+      "text": "Successful WoW guild leader in charge of gathering and leading 40 man groups through challenging encounters bi-weekly for up to 3 hours at a time for over 2 years."
+    }
   ]
 }

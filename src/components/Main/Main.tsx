@@ -18,6 +18,7 @@ export const Main = () => {
           title
           location
           company
+          url
           duration {
             start
             end
@@ -29,6 +30,7 @@ export const Main = () => {
           title
           location
           company
+          url
           duration {
             start
             end
@@ -38,21 +40,25 @@ export const Main = () => {
         projects {
           id
           title
+          url
           duration {
             start
             end
           }
           accomplishments
         }
-        funHighlights
+        funHighlights {
+          text
+          url
+        }
       }
     }
   `);
 
   return (
     <Box borderLeft="1px dashed" borderColor="border" py={4} px={3}>
-      <WorkExperience experience={workExperience} />
       <ContractExperience experience={contractExperience} />
+      <WorkExperience experience={workExperience} />
       <Projects experience={projects} />
       <FunStuff highlights={funHighlights} />
     </Box>

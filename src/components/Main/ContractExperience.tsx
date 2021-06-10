@@ -11,7 +11,7 @@ export interface ContractExperienceProps {
 export const ContractExperience = ({ experience }: ContractExperienceProps) => {
   return (
     <Box>
-      <MainHeader icon="work" text="Contracted experience" />
+      <MainHeader icon="contract" text="Contracted experience" />
       <Stack>
         {experience.map(article => {
           return (
@@ -21,6 +21,7 @@ export const ContractExperience = ({ experience }: ContractExperienceProps) => {
                 location={article.location}
                 company={article.company}
                 duration={article.duration}
+                companyUrl={article.url}
               />
               <Flex flexDirection="column">
                 {article.accomplishments.map(accomplishment => {
