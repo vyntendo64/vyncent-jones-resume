@@ -15,7 +15,7 @@
     "aboutMe": [
       "7 years of experience in making scalable, secure, database-driven componentized web applications and internal tooling both with a team and as an individual.",
       "Excellent leadership skills and keen at meeting strict deadlines.",
-      "Quick learner who isn't afraid to get their hands dirty on legacy projects and will will put in the extra work to meet the highest quality standards."
+      "Quick learner who isn't afraid to get their hands dirty on legacy projects and will put in the extra work to meet the highest quality standards."
     ],
     "skills": {
       "languages": [
@@ -46,6 +46,8 @@
         "Twilio",
         "Git",
         "Mailchimp",
+        "Discord.js",
+        "Jupyter",
         "Coldfusion"
       ],
       "hobbies": [
@@ -69,7 +71,7 @@
     },
     "accomplishments": [
       "Developed all internal tooling which is approved by the Australian government for handling the workflow needed to safely assess and remove asbestos with over 3,000 completed projects and counting.",
-      "Developed internal tooling TDD for full e2e test coverage using CypressJs so important onsite workflows go uninterrupted. Latest browser and device support and built using Typescript using Apollo with GQL for fast development all hosted via Netlify for no cost.",
+      "Developed internal tooling TDD for full e2e test coverage using CypressJs so important onsite workflows go uninterrupted. Using the latest browser and device support considerations and built using Typescript using Apollo with GQL for fast development all hosted via Netlify for no cost.",
       "Developed Typescript GQL endpoint which Prisma ORM for CRUD operations with data stored in a secure RDS instance, served using a Serverless Lambda all for no cost and allowing for a quick development cycle.",
       "Developed a public-facing website using GatsbyJS for blazing fast load times with a Lighthouse audit score of 95+ in all categories; complete with full SEO and Google Analytics.",
       "Helped Jesco receive a government contract to oversee the demolition of the loose-fill asbestos-insulated houses for years in Canberra, ACT with this software."
@@ -88,7 +90,7 @@
     "accomplishments": [
       "Built internal web application (built with React, Typescript, and GraphQL) from the ground up that was pivotal in empowering Creative Strategists to find and replicate top-performing ads.",
       "Added e2e testing suites with full coverage to all core applications run during CI/CD pipelines effectively eliminating production outages and speeding up development",
-      "Developed internal web application for helping teams find and interate on high performing ads."
+      "Developed internal web application for helping teams find and iterate on high performing ads."
     ]
   }, {
     "id": 1,
@@ -118,9 +120,9 @@
       "accomplishments": [
         "Developed numerous features and integrations with 3rd party companies to expand the companies reach and capabilities.",
         "Led the company-wide rollover to Zendesk for customer service issue tracking and ticket creation with a tested, rich feature set of back-end services and custom integrations.",
-        "Led and developed theweb application's migration from in house payment system to Stripe.",
-        "Developed the Google autentication portal for all employees accessing production internal tooling.",
-        "Migrated legacy client web application from AngularJs to ReactJs with an animated signup flow as the crown jewel dramatically improving conversion and customer aquesition.",
+        "Led and developed the web application's migration from in house payment system to Stripe.",
+        "Developed the Google authentication portal for all employees accessing production internal tooling.",
+        "Migrated legacy client web application from AngularJs to ReactJs with an animated signup flow as the crown jewel dramatically improving conversion and customer acquisition.",
         "Led the charge for the client applications to adopt typesafe practices using Flow to avoid production downtime with .",
         "Created e2e testing suite with full coverage run during CI/CD pipeline effectively eliminating production outages and speeding up development.",
         "Developed numerous features for both website and web application that needed to handle millions of hits per month."
@@ -151,7 +153,7 @@
       "end": "Current"
     },
     "accomplishments": [
-      "Developed a NodeJS stock bot that watches up to 300 stock tickers at once and uses information streamed in via websockets to determine trade entry and exit points.",
+      "Developed a NodeJS stock bot that watches up to 300 stock tickers at once and uses information streamed in via WebSockets to determine trade entry and exit points.",
       "Build a Selenium tool to scrape various websites to get volatile stocks and then integrates with Polygon.io to aggregate data. The data is then run through using various technical analysis and risk management strategies to determine trade entries in real-time.",
       "Engineered a fully robust set of backtesting scripts are used to determine strategy expected performance as well as create equity curves that can be displayed in chart format in the browser."
     ]
@@ -165,7 +167,7 @@
       "end": "11/2018"
     },
     "accomplishments": [
-      "Developed a map based Reddit style application in React Native that was approved and made available on the Apple App Store.",
+      "Developed a map-based Reddit style application in React Native that was approved and made available on the Apple App Store.",
       "Engineered unique way using users' viewport to query for posts in those bounds sorted by upvotes as they scroll."
     ]
   }, {
@@ -189,9 +191,9 @@
       "end": "03/2021"
     },
     "accomplishments": [
-      "Developed a NodeJS Discord bot was invited into over 1000 servers and earned the \"Verified Bot\" badge.",
+      "Developed a NodeJS Discord bot was invited into over 1000 servers.",
       "Developed an easier way for players of World of Warcraft Classic to easily manage groups for a scheduled and time.",
-      "Managed a Discord server that communicated features to the over 12,000 users and saw over 100,000 signups at the end of it's life."
+      "Managed a Discord server that communicated features to the over 12,000 users and saw over 100,000 signups at the end of its life."
     ]
   }],
   "educations": [{
@@ -201,11 +203,14 @@
     "degree": "BS, Economics"
   }],
   "funHighlights": [{
-      "text": "5 year Division 1 NCAA Scholarship athlete for the University of Utah football program and member of the team's Leadership Council.",
+      "text": "5-year Division 1 NCAA Scholarship athlete for the University of Utah football program and member of the team's Leadership Council.",
       "url": "https://archive.sltrib.com/article.php?id=57185438&itype=CMSID"
     },
     {
       "text": "Successful WoW guild leader in charge of gathering and leading 40 man groups through challenging encounters bi-weekly for up to 3 hours at a time for over 2 years."
+    },
+    {
+      "text": "Proud owner of a Discord bot developer badge which is given to developers with bots in over 1000+ servers."
     }
   ]
 }
