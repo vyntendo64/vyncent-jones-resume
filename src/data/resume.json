@@ -62,7 +62,7 @@
   "contractExperience": [{
     "id": 0,
     "title": "Software Engineer",
-    "location": "Canberra, AUS",
+    "location": "Canberra, AU",
     "url": "https://www.jescoasbestos.com.au/",
     "company": "Jesco Asbestos",
     "duration": {
@@ -95,7 +95,7 @@
   }, {
     "id": 1,
     "title": "Software Engineer",
-    "location": "Canberra, AUS",
+    "location": "Canberra, AU",
     "company": "AAC Environmental",
     "duration": {
       "start": "06/2014",
