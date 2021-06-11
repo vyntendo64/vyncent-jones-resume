@@ -70,9 +70,11 @@
       "end": "Current"
     },
     "accomplishments": [
-      "Developed all internal tooling which is approved by the Australian government for handling the workflow needed to safely assess and remove asbestos with over 3,000 completed projects and counting.",
-      "Developed internal tooling TDD for full e2e test coverage using CypressJs so important onsite workflows go uninterrupted. Using the latest browser and device support considerations and built using Typescript using Apollo with GQL for fast development all hosted via Netlify for no cost.",
-      "Developed Typescript GQL endpoint which Prisma ORM for CRUD operations with data stored in a secure RDS instance, served using a Serverless Lambda all for no cost and allowing for a quick development cycle.",
+      "Developed all internal tooling for handling the workflow needed to safely assess and remove asbestos for over 3,000 completed projects and counting.",
+      "Used to handle sensitive data which meets the strict guidelines and approval by the Australian government",
+      "Developed internal tooling using TDD for full e2e test coverage so that important onsite workflows run uninterrupted.",
+      "Built using the latest browser and device support considerations with Typescript and Apollo for fast development; all hosted via Netlify for no cost.",
+      "Developed a Typescript GQL endpoint using Prisma ORM for CRUD operations; served using a Serverless Lambda all for no cost.",
       "Developed a public-facing website using GatsbyJS for blazing fast load times with a Lighthouse audit score of 95+ in all categories; complete with full SEO and Google Analytics.",
       "Helped Jesco receive a government contract to oversee the demolition of the loose-fill asbestos-insulated houses for years in Canberra, ACT with this software."
     ]
@@ -88,9 +90,9 @@
       "end": "07/2020"
     },
     "accomplishments": [
-      "Built internal web application (built with React, Typescript, and GraphQL) from the ground up that was pivotal in empowering Creative Strategists to find and replicate top-performing ads.",
-      "Added e2e testing suites with full coverage to all core applications run during CI/CD pipelines effectively eliminating production outages and speeding up development",
-      "Developed internal web application for helping teams find and iterate on high performing ads."
+      "Built an internal web application (built with React, Typescript, and GraphQL) from the ground up that was pivotal in empowering Creative Strategists to find and replicate top-performing ads.",
+      "Added e2e testing suites with full coverage to all core applications run during CI/CD pipelines effectively eliminating production outages and speeding up development.",
+      "Developed an internal web application for helping teams find and iterate on high performing ads."
     ]
   }, {
     "id": 1,
@@ -102,8 +104,8 @@
       "end": "07/2015"
     },
     "accomplishments": [
-      "Developed asbestos laboratory software used to score asbestos samples and track those that contained asbestos and those that did not.",
-      "Sped up asbestos sample analysis workflow to the point of making AAC the #1 asbestos analysis lab in Canberra at the time and led to the company’s eventual buyout."
+      "Developed laboratory software used to score samples to track asbestos presence.",
+      "Sped up the in-house workflow making AAC the #1 asbestos analysis lab in Canberra leading to the company’s eventual buyout."
     ]
   }],
   "workExperience": [
@@ -118,14 +120,14 @@
         "end": "05/2019"
       },
       "accomplishments": [
-        "Developed numerous features and integrations with 3rd party companies to expand the companies reach and capabilities.",
-        "Led the company-wide rollover to Zendesk for customer service issue tracking and ticket creation with a tested, rich feature set of back-end services and custom integrations.",
-        "Led and developed the web application's migration from in house payment system to Stripe.",
+        "Developed numerous features and integrations with 3rd party companies to expand the company's reach and capabilities.",
+        "Led the company-wide rollover to Zendesk for customer service issue tracking and ticket creation by using a tested, rich feature set of back-end services and custom integrations.",
+        "Led and developed the web application's migration from the in-house payment system to Stripe.",
         "Developed the Google authentication portal for all employees accessing production internal tooling.",
-        "Migrated legacy client web application from AngularJs to ReactJs with an animated signup flow as the crown jewel dramatically improving conversion and customer acquisition.",
-        "Led the charge for the client applications to adopt typesafe practices using Flow to avoid production downtime with .",
-        "Created e2e testing suite with full coverage run during CI/CD pipeline effectively eliminating production outages and speeding up development.",
-        "Developed numerous features for both website and web application that needed to handle millions of hits per month."
+        "Migrated the legacy client web application from AngularJs to ReactJs with an animated signup flow that dramatically improving conversion and customer acquisition.",
+        "Led the charge for the client applications to adopt typesafe practices using Flow to avoid production downtime.",
+        "Created an e2e testing suite with full coverage that was run during CI/CD pipeline effectively eliminating production outages and speeding up development.",
+        "Developed numerous features for both website and web services that were required to handle millions of hits per month."
       ]
     },
     {
@@ -139,9 +141,9 @@
         "end": "09/2017"
       },
       "accomplishments": [
-        "Led the charge to bring the entire District into the world of modular components and away from server-side templates in an no longer maintained language.",
+        "Introducted the District into the use of modular components and away from server-side templates in an unsupported language.",
         "Developed custom ORM and query builder layer on top of Coldfusion for faster development cycles.",
-        "Launched major projects in record time that include a district-wide mileage tracking software, inventory warehouse request/distribution software, special needs enrollment program and a district-wide volunteer signup and event management system."
+        "Launched major projects in record time that included a district-wide mileage tracking software, inventory warehouse request/distribution software, special needs enrollment program and a district-wide volunteer signup / event management system."
       ]
     }
   ],
@@ -167,8 +169,7 @@
       "end": "11/2018"
     },
     "accomplishments": [
-      "Developed a map-based Reddit style application in React Native that was approved and made available on the Apple App Store.",
-      "Engineered unique way using users' viewport to query for posts in those bounds sorted by upvotes as they scroll."
+      "Developed a map-based Reddit style application in React Native that was approved and made available on the Apple App Store."
     ]
   }, {
     "id": 2,
@@ -179,8 +180,9 @@
       "end": "Current"
     },
     "accomplishments": [
-      "Developed High school driver’s education management software used to track student progress toward obtaining their license and used to help over 5,000+ students obtain their driver's license.",
-      "Helped students sign up for available drives and instructors in the car mark their attendance and the hours are automatically calculated."
+      "Developed High school driver’s education management software that was used to track student's progress towards obtaining their license.",
+      "Helped students sign up for scheduled drive times and allowed instructors to track attendance and hours.",
+      "Over 5,000 students have obtained their driver's license through the program and counting."
     ]
   },   {
     "id": 3,
@@ -191,9 +193,9 @@
       "end": "03/2021"
     },
     "accomplishments": [
-      "Developed a NodeJS Discord bot was invited into over 1000 servers.",
-      "Developed an easier way for players of World of Warcraft Classic to easily manage groups for a scheduled and time.",
-      "Managed a Discord server that communicated features to the over 12,000 users and saw over 100,000 signups at the end of its life."
+      "Developed a NodeJS Discord bot that was invited into over 1000 servers.",
+      "Developed an easier way for players of World of Warcraft Classic to easily manage groups for a scheduled time.",
+      "Managed a Discord server that communicated features to 12,000+ users and saw over 100,000 signups."
     ]
   }],
   "educations": [{
@@ -207,7 +209,7 @@
       "url": "https://archive.sltrib.com/article.php?id=57185438&itype=CMSID"
     },
     {
-      "text": "Successful WoW guild leader in charge of gathering and leading 40 man groups through challenging encounters bi-weekly for up to 3 hours at a time for over 2 years."
+      "text": "Successful WoW guild leader in charge of gathering and leading 40 man groups through challenging encounters bi-weekly."
     },
     {
       "text": "Proud owner of a Discord bot developer badge which is given to developers with bots in over 1000+ servers."
